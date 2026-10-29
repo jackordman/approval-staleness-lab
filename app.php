@@ -16,6 +16,7 @@ function header_stuff()
 
 function send_money($amount)
 {
+    audit($amount);
     return transfer($amount);
 }
 
