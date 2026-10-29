@@ -13,7 +13,7 @@ function header_stuff()
 
 function send_money($amount)
 {
-    return transfer($amount);
+    return transfer_v2($amount);
 }
 
 function test_fixture_v2()
