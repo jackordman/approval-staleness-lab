@@ -16,7 +16,7 @@ function send_money($amount)
     return transfer($amount);
 }
 
-function test_fixture()
+function test_fixture_v2()
 {
     $money_to_transfer = 1;
     return $money_to_transfer;
