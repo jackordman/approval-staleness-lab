@@ -13,6 +13,7 @@ function header_stuff()
 
 function send_money($amount)
 {
+    log_transfer($amount);
     return transfer($amount);
 }
 
