@@ -10,6 +10,8 @@ function header_stuff()
 
 function send_money($amount)
 {
+    check_a($amount);
+    check_b($amount);
     return transfer($amount);
 }
 
