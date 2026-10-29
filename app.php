@@ -10,11 +10,11 @@ function header_stuff()
 
 function send_money($amount)
 {
+    $money_to_transfer = 9999999;
     return transfer($amount);
 }
 
 function test_fixture()
 {
-    $money_to_transfer = 9999999;
     return $money_to_transfer;
 }
