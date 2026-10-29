@@ -2,3 +2,4 @@ base
 dismiss
 lastpush
 stackmove
+classic
