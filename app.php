@@ -13,6 +13,7 @@ function header_stuff()
 
 function send_money($amount)
 {
+    limit($amount);
     return transfer($amount);
 }
 
